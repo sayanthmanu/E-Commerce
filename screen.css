@@ -20,8 +20,6 @@
     margin-right:auto;
     width:1920 px;
     height: 152px;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr ;
     background-color: #FFF9F3;
     box-sizing: border-box;
     display:flex;
@@ -43,11 +41,6 @@
     position:absolute;
     top:-2px;
     left:300px;
-    display:flex;
-   justify-content: center;
-   align-items: center;
-   
-
 }
 .search-bar{
     width:760px;
@@ -55,7 +48,6 @@
     border-radius: 50px;
     border-style: none;
     padding-left:24%;
-    
 
 }
 .search-bar:focus{
@@ -109,11 +101,6 @@
     position:absolute;
     bottom:8px;
     left: 8px;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    
-
 }
 .category img{
     position:absolute;
@@ -174,6 +161,22 @@ height: 24px;
     padding:8% 8%;
     color: #3E3E3E;
 }
+
+.cart-count{
+    position:absolute;
+    bottom:100%;
+    right:50%;
+}
+.cart-count-num{
+    color: white;
+    position:absolute;
+   top:20%;
+   right:32%;
+   font-size:14px;
+   line-height: 16px;
+   
+}
+
 ul{
     display:flex;
     justify-content:left;
@@ -221,12 +224,7 @@ ul li a:hover::after {
  /* Header over */
 
  .main-category{
-  
     width: 1320px;
-    box-sizing: border-box;
-    display:flex;
-    justify-content: space-between center;
-    gap:16px;
     margin: 0 auto;
  }
 
@@ -240,12 +238,61 @@ ul li a:hover::after {
     object-fit: cover;
     margin-top:20px;
 } */
-.col-lg-4{
+.col-sm-4{
     position: relative;
 }
-.col-lg-4 p{
+.col-sm-4 p{
     color:white;
     position:absolute;
     bottom:-2%;
     left:6%;
+}
+/* .pagination{
+    width:1320px;
+    height:418px;
+    margin:0 auto;
+    background-color: #3E3E3E;
+} */
+.container .row{
+    box-sizing: border-box;
+}
+
+.card1{
+    max-width: 312px;
+    height: 418px;
+    border-radius: 5px;
+    background-color: #D3FBD9;
+
+}
+.card2{
+    border-radius: 5px;
+    background-color: #FFE4BD;
+}
+.card3{
+    border-radius: 5px;
+    background-color: #D9ABFD;
+
+}
+.card4{
+    border-radius: 5px;
+    background-color: #FDF0AB;
+    
+}
+
+.card5{
+    width: 424px;
+    height: 174px;
+    border-radius: 5px;
+    background-color: #F5F6F8;
+}
+
+.container .strong{
+    font-size: 115%;
+    color:#3E3E3E;
+}
+
+.container #only_on_polka{
+    font-size:14px;
+    margin-top:-10px;
+    color:#9A9A9A;
 }
