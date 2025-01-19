@@ -14,7 +14,6 @@
     padding:0;
     box-sizing: border-box;   
     font-size:100%;
-    position:relative;
 }
 .header{
     margin-left:auto;
@@ -49,7 +48,6 @@
     border-radius: 50px;
     border-style: none;
     padding-left:24%;
-
 }
 .search-bar:focus{
     outline:none;
@@ -132,9 +130,9 @@ select{
 .account{
     position:absolute;
     right:11%;
-    top: 27%;
+    top: 25%;
     transition:all 0.3s ease;
-    transform:scale(1.3);
+    transform:scale(1.1);
     display:flex;
 height: 24px;
 
@@ -142,33 +140,35 @@ height: 24px;
 }
 .account:hover{
     cursor:pointer;
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 .account p{
-    font-size: 70%;
+    font-size: 14px;
+    font-weight: 400;
     flex:1;
-    padding:8% 8%;
+    padding:5% 8%;
     color: #3E3E3E;
 }
 
 .shoping{
     position:absolute;
-    right:1.5%;
+    right:1.1%;
     top: 27%;
     transition:all 0.3s ease;
-    transform:scale(1.3);
+    transform:scale(1.1);
     display:flex;
     height: 24px;
 
 }
 .shoping:hover{
     cursor:pointer;
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 .shoping p{
-    font-size: 70%;
+    font-size: 14px;
+    font-weight: 400;
     flex:1;
-    padding:8% 8%;
+    padding:5% 12%;
     color: #3E3E3E;
 }
 
@@ -176,16 +176,19 @@ height: 24px;
     position:absolute;
     bottom:100%;
     right:50%;
+    display: flex;
+    justify-content: center;
 }
 .cart-count-num{
-    color: white;
     position:absolute;
-   top:20%;
-   right:32%;
-   font-size:14px;
-   line-height: 16px;
-   
+    top:20%;
+ 
+    color: white;
+    font-size:12px;
+    line-height: 16px;
+    
 }
+
 
 ul{
     display:flex;
@@ -549,6 +552,11 @@ top: 60%;
     left:25%;
 
 }
+.lion img{
+    position:absolute;
+    left:6%;
+    bottom:6%;
+}
 
 .blue-pillow{
     width:144px;
@@ -566,6 +574,11 @@ top: 60%;
       left:16%;
   
   }
+  .blue-pillow img{
+    position:absolute;
+    left:6%;
+    bottom:6%;
+}
 
 .mug{
     width:144px;
@@ -583,6 +596,11 @@ top: 60%;
       left:18%;
   
   }
+  .mug img{
+    position:absolute;
+    left:6%;
+    bottom:6%;
+}
 
 .flower{
     width:144px;
@@ -600,6 +618,11 @@ top: 60%;
       left:25%;
   
   }
+  .flower img{
+    position:absolute;
+    left:6%;
+    bottom:6%;
+}
 .gift{
     width:144px;
     height:144px;
@@ -616,6 +639,11 @@ top: 60%;
       left:27%;
   
   }
+  .gift img{
+    position:absolute;
+    left:6%;
+    bottom:6%;
+}
 .wall-decor{
     width:144px;
     height:144px;
@@ -632,6 +660,11 @@ top: 60%;
       left:25%;
   
   }
+  .wall-decor img{
+    position:absolute;
+    left:6%;
+    bottom:6%;
+}
 .axe{
     width:144px;
     height:144px;
@@ -648,6 +681,11 @@ top: 60%;
       left:27%;
   
   }
+  .axe img{
+    position:absolute;
+    left:6%;
+    bottom:6%;
+}
 .sofa{
     width:144px;
     height:144px;
@@ -664,6 +702,11 @@ top: 60%;
       left:30%;
   
   }
+  .sofa img{
+    position:absolute;
+    left:6%;
+    bottom:6%;
+}
 
 
   /* To Do
@@ -696,41 +739,76 @@ top: 60%;
     width:200px;
     height:290px;
     box-shadow: 0px 0px 8px 0px #0000001A;
+    position:relative;
 
+}
+
+.brown-bag img{
+    position:absolute;
+    top:5%;
+    right:5%;
 }
 
 .sandal{
     width:200px;
     height:290px;
     box-shadow: 0px 0px 8px 0px #0000001A;
-
+    position:relative;
+}
+.sandal img{
+    position:absolute;
+    top:8%;
+    right:5%;
 }
 
 .blue-bag{
     width:200px;
     height:290px;
     box-shadow: 0px 0px 8px 0px #0000001A;
-
+    position:relative;
+}
+.blue-bag img{
+    position:absolute;
+    top:4%;
+    right: 5%;
 }
 .white-shoes{
     width:200px;
     height:290px;
     box-shadow: 0px 0px 8px 0px #0000001A;
-
+    position:relative;
 }
+
+.white-shoes img{
+    position: absolute;
+    top:5%;
+    right:2%;
+}
+
 .ring{
     width:200px;
     height:290px;
     box-shadow: 0px 0px 8px 0px #0000001A;
-
+    position:relative;
+}
+.ring img{
+    position:absolute;
+    top:5%;
+    right:3%;
 }
 .bangle{
     width:200px;
     height:290px;
     box-shadow: 0px 0px 8px 0px #0000001A;
-
+    position:relative;
+}
+.bangle img{
+    position: absolute;
+    top:5%;
+    right:3%;
 }
 
+/* section over */
 
 .modern{
     width:200px;
@@ -886,6 +964,7 @@ top: 60%;
  .line5{
     position:absolute;
     top:90%;
+    left:2%;
      height:1px; 
      width:200px;
      background-color:#E9E9E9;
@@ -919,6 +998,7 @@ top: 60%;
  .line6{
     position:absolute;
     top:90%;
+    left:1%;
      height:1px; 
      width:200px;
      background-color:#E9E9E9;
@@ -938,32 +1018,298 @@ top: 60%;
  }
 .modern p{
     width:50%;
-
+    text-align: center;
+    font-weight: 500;
 }
 
 
 .eclectic p{
     width:50%;
-
+    text-align: center;
+    font-weight: 500;
 }
 
 .polka p{
     width:60%;
+    text-align: center;
+    font-weight: 500;
 }
 
 .minimalist p{
     width: 50%;
+    text-align: center;
+    font-weight: 500;
 }
 
 .anniversary p{
     width:50%;
+    text-align: center;
+    font-weight: 500;
 }
 
 .wedgift p{
     width:50%;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* section over */
+
+.green-shoe-iphone{
+    padding-top:5%;
+    
+}
+
+.green-shoe{
+    width:312px;
+    height:418px;
+    border-radius: 5px;
+
+
+}
+
+.nightstand {
+    width:312px;
+    height:418px;
+    border-radius: 5px;
+    background-color: #FBF7D3;
+}
+.iphone{
+    width:312px;
+    height:418px;
+    border-radius: 5px;
+    background-color: #FFBDBD; 
+}
+.balm{
+    width:312px;
+    height:418px;
+    border-radius: 5px;
+    background-color: #C0ABFD; 
+}
+
+.subscribe{
+    background-color: #5959D9;
+    width:1320px;
+    height: 306px;
+    border-radius: 5px;
+}
+
+.commercerow{
+    display:flex;
+    text-align: center;
+    
+}
+
+.commerce{
+    background-color: #F5F6F8;
+    width:1920px;
+    height:48px;
+    font-size:14px;
+    font-weight: 400;
+    padding-top:1%;
+   
 }
 
 
+/* footer */
 
- 
+.footer1{
 
+    height: 276px;
+   
+}
+
+.footer1 p{
+    width:50%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer1 img:hover{
+    cursor: pointer;
+}
+.footer1 .social-logos{
+    margin-right:3.5%;
+    transition:all 0.3s ease;
+}
+
+.footer1 .social-logos:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+
+.footer2{
+    margin-left:100px;
+}
+
+.footer2 .strong{
+    font-size:16px;
+    font-weight:500;
+    color:#3E3E3E;
+}
+.footer2 .footer-list{
+    transition:all 0.3s ease;
+    }
+
+.footer2 .footer-list:hover{
+    color:#EB6D26;
+    cursor:pointer;
+    }
+
+/* reusable */
+.footer-list{
+font-size:14px;
+font-weight: 400;
+line-height:24px;
+color: #292929;
+
+}
+
+.footer-list-spacing{
+    margin-top:-3%;
+}
+/* reusable */
+
+
+
+
+.footer3 .strong{
+    font-size:16px;
+    font-weight:500;
+    color:#3E3E3E;
+}
+.footer3 .footer-list{
+    transition:all 0.3s ease;
+    }
+
+.footer3 .footer-list:hover{
+    color:#EB6D26;
+    cursor:pointer;
+    }
+
+
+.footer4 .strong{
+    font-size:16px;
+    font-weight:500;
+    color:#3E3E3E;
+}
+.footer4 .footer-list{
+    transition:all 0.3s ease;
+    }
+
+.footer4 .footer-list:hover{
+    color:#EB6D26;
+    cursor:pointer;
+    }
+
+.footer5 .strong{
+    font-size:16px;
+    font-weight:500;
+    color:#3E3E3E;
+}
+.footer5 .footer-list{
+transition:all 0.3s ease;
+}
+.footer5 .footer-list:hover{
+color:#EB6D26;
+cursor:pointer;
+}
+.copyrightclass{
+    position: relative;
+    margin-bottom:20px;
+}
+.copyright1{
+    max-width:100px;
+    font-size: 14px;
+    font-weight:400;
+    line-height:24px;
+
+  
+}
+
+
+.copyright2{
+
+
+    position:absolute;
+    left:34.4%;
+    bottom:16%;
+    font-size: 14px;
+    font-weight:400;
+    line-height:24px;
+    
+}
+.copyright2 p{
+    transition:all 0.3s ease;
+
+}
+.copyright2:hover p{
+   color: #EB8426;
+   cursor:pointer;
+}
+.copyright3{
+
+
+    position: absolute;
+    left:45.2%;
+    bottom:16%;
+    font-size: 14px;
+    font-weight:400;
+    line-height:24px;
+    
+}
+.copyright3 p{
+    transition:all 0.3s ease;
+
+}
+.copyright3:hover p{
+    color: #EB8426;
+    cursor:pointer;
+ }
+.copyright4{
+
+    position: absolute;
+    left:55.5%;
+    bottom:16%;
+    font-weight:400;
+    line-height:24px;
+    
+}
+.copyright4 p{
+    transition:all 0.3s ease;
+}
+.copyright4:hover p{
+    color: #EB8426;
+    cursor:pointer;
+ }
+ .scroll{
+    height:0px;
+ }
+.scroll p{
+    font-size:12px;
+    font-weight: 400;
+    line-height:16px;
+    color:#3E3E3E;
+    position: absolute;
+    left:90%;
+    bottom:24%;
+    transition:all 0.1s ease;
+    cursor:pointer;
+}
+.scroll svg{
+    position: absolute;
+    left:96.3%;
+    bottom:80%;
+    
+    cursor:pointer;
+}
+
+
+.scroll:hover p{
+
+    color:#EB8426;
+}
+
+.scroll:hover svg path{
+    stroke:#EB8426;
+}
