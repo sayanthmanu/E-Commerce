@@ -369,7 +369,7 @@ ul li a:hover::after {
     transition: all 0.3s ease;
     transform:scale(1);
 }
-.shoes:hover {
+.shoes img:hover {
     transform:scale(1.01);
 }
 
@@ -381,7 +381,7 @@ ul li a:hover::after {
     transition: all 0.3s ease;
     transform:scale(1);
 }
-.home:hover{
+.home img:hover{
     transform:scale(1.01);
 }
 
@@ -393,7 +393,7 @@ ul li a:hover::after {
     transition: all 0.3s ease;
     transform:scale(1);
 }
-.art:hover{
+.art img:hover{
     transform:scale(1.01);
 }
 
