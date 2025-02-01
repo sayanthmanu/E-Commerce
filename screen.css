@@ -24,10 +24,12 @@
         margin-left: auto;
         margin-right:auto;
         background-color: #fff;
-        box-sizing: border-box;   
-        font-size:100%;
+        
+        
+        
 
     }
+    
     .header{
         margin-left:auto !important;
         margin-right:auto !important;
@@ -119,13 +121,10 @@
     .right-arrow1{
         display:none !important;
     }
+    .subscribe .submit-email{
+        width:633px !important;
 
-    .left-arrow2{
-        display:none !important;
-    }
-    .right-arrow2{
-        display:none !important;
-    }
+}
 }
 .header{
     margin-left:auto;
@@ -268,7 +267,7 @@ height: 24px;
 .account p{
     font-size: 14px;
     font-weight: 400;
-    flex:1;
+    
     padding:5% 8%;
     color: #3E3E3E;
 }
@@ -362,7 +361,7 @@ ul li a:hover::after {
  .container .row{
     box-sizing: border-box;
 }
-.shoes{
+.shoes img{
     width: 424px; 
     height: 180px !important; 
     border-radius: 5px; 
@@ -374,7 +373,7 @@ ul li a:hover::after {
     transform:scale(1.01);
 }
 
-.home{
+.home img{
     width: 424px; 
     height: 180px !important;  
     border-radius: 5px; 
@@ -386,7 +385,7 @@ ul li a:hover::after {
     transform:scale(1.01);
 }
 
-.art{
+.art img{
     width: 424px; 
     height: 180px !important;  
     border-radius: 5px; 
@@ -410,9 +409,7 @@ ul li a:hover::after {
     left:6%;
 }
 
-.col-lg-3{
-    background-color: #3e3e3e;
-}
+
 
 .card1{
     
@@ -421,9 +418,6 @@ ul li a:hover::after {
     background-color: #D3FBD9;
     position:relative;
 
-}
-.col-lg-3{
-    background-color: white;
 }
 .card1 img{
 position:absolute;
