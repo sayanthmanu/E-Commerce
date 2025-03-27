@@ -20,7 +20,7 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
     
     .containerarea{
-        width:900px !important;
+        width:100% !important;
         margin-left: auto;
         margin-right:auto;
         background-color: #fff;
@@ -29,7 +29,7 @@
         
 
     }
-    
+
     .header{
         margin-left:auto !important;
         margin-right:auto !important;
